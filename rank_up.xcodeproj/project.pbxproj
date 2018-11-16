@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380B9F7D219DE09700F29C21 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380B9F7C219DE09700F29C21 /* MainTableViewController.swift */; };
 		3844C720219DD5ED00789EA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844C71F219DD5ED00789EA5 /* AppDelegate.swift */; };
-		3844C722219DD5ED00789EA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844C721219DD5ED00789EA5 /* ViewController.swift */; };
 		3844C725219DD5ED00789EA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3844C723219DD5ED00789EA5 /* Main.storyboard */; };
 		3844C728219DD5ED00789EA5 /* rank_up.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3844C726219DD5ED00789EA5 /* rank_up.xcdatamodeld */; };
 		3844C72A219DD5EF00789EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3844C729219DD5EF00789EA5 /* Assets.xcassets */; };
 		3844C72D219DD5EF00789EA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3844C72B219DD5EF00789EA5 /* LaunchScreen.storyboard */; };
 		3844C738219DD5EF00789EA5 /* rank_upTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844C737219DD5EF00789EA5 /* rank_upTests.swift */; };
 		3844C743219DD5F000789EA5 /* rank_upUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3844C742219DD5F000789EA5 /* rank_upUITests.swift */; };
+		38D120A0219F37E200189EE9 /* AddTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D1209F219F37E200189EE9 /* AddTableViewController.swift */; };
+		38D120A2219F386000189EE9 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D120A1219F386000189EE9 /* Protocols.swift */; };
+		38F4EF82219F48B800408596 /* StupidTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4EF81219F48B800408596 /* StupidTableViewController.swift */; };
+		38F4EF84219F4EB100408596 /* BeastedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F4EF83219F4EB100408596 /* BeastedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3844C71C219DD5ED00789EA5 /* rank_up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rank_up.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		380B9F7C219DE09700F29C21 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		3844C71C219DD5ED00789EA5 /* Belt Exam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Belt Exam.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3844C71F219DD5ED00789EA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3844C721219DD5ED00789EA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3844C724219DD5ED00789EA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3844C727219DD5ED00789EA5 /* rank_up.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = rank_up.xcdatamodel; sourceTree = "<group>"; };
 		3844C729219DD5EF00789EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		3844C73E219DD5F000789EA5 /* rank_upUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rank_upUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3844C742219DD5F000789EA5 /* rank_upUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rank_upUITests.swift; sourceTree = "<group>"; };
 		3844C744219DD5F000789EA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38D1209F219F37E200189EE9 /* AddTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTableViewController.swift; sourceTree = "<group>"; };
+		38D120A1219F386000189EE9 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		38F4EF81219F48B800408596 /* StupidTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StupidTableViewController.swift; sourceTree = "<group>"; };
+		38F4EF83219F4EB100408596 /* BeastedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeastedTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +97,7 @@
 		3844C71D219DD5ED00789EA5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3844C71C219DD5ED00789EA5 /* rank_up.app */,
+				3844C71C219DD5ED00789EA5 /* Belt Exam.app */,
 				3844C733219DD5EF00789EA5 /* rank_upTests.xctest */,
 				3844C73E219DD5F000789EA5 /* rank_upUITests.xctest */,
 			);
@@ -99,9 +107,13 @@
 		3844C71E219DD5ED00789EA5 /* rank_up */ = {
 			isa = PBXGroup;
 			children = (
+				380B9F7C219DE09700F29C21 /* MainTableViewController.swift */,
 				3844C71F219DD5ED00789EA5 /* AppDelegate.swift */,
-				3844C721219DD5ED00789EA5 /* ViewController.swift */,
 				3844C723219DD5ED00789EA5 /* Main.storyboard */,
+				38F4EF83219F4EB100408596 /* BeastedTableViewController.swift */,
+				38F4EF81219F48B800408596 /* StupidTableViewController.swift */,
+				38D120A1219F386000189EE9 /* Protocols.swift */,
+				38D1209F219F37E200189EE9 /* AddTableViewController.swift */,
 				3844C729219DD5EF00789EA5 /* Assets.xcassets */,
 				3844C72B219DD5EF00789EA5 /* LaunchScreen.storyboard */,
 				3844C72E219DD5EF00789EA5 /* Info.plist */,
@@ -145,7 +157,7 @@
 			);
 			name = rank_up;
 			productName = rank_up;
-			productReference = 3844C71C219DD5ED00789EA5 /* rank_up.app */;
+			productReference = 3844C71C219DD5ED00789EA5 /* Belt Exam.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3844C732219DD5EF00789EA5 /* rank_upTests */ = {
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3844C722219DD5ED00789EA5 /* ViewController.swift in Sources */,
+				38D120A2219F386000189EE9 /* Protocols.swift in Sources */,
 				3844C728219DD5ED00789EA5 /* rank_up.xcdatamodeld in Sources */,
+				38F4EF82219F48B800408596 /* StupidTableViewController.swift in Sources */,
+				380B9F7D219DE09700F29C21 /* MainTableViewController.swift in Sources */,
+				38F4EF84219F4EB100408596 /* BeastedTableViewController.swift in Sources */,
 				3844C720219DD5ED00789EA5 /* AppDelegate.swift in Sources */,
+				38D120A0219F37E200189EE9 /* AddTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jim.rank-up";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Belt Exam";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jim.rank-up";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Belt Exam";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
